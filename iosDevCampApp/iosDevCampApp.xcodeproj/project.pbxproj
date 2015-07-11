@@ -15,6 +15,9 @@
 		4E8A10001B51CAC20047FCCF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8A0FFE1B51CAC20047FCCF /* Interface.storyboard */; };
 		4E8A10021B51CAC20047FCCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8A10011B51CAC20047FCCF /* Images.xcassets */; };
 		4E8A10051B51CAC20047FCCF /* iosDevCampApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E8A0FEA1B51CAC20047FCCF /* iosDevCampApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4E8A10101B51D27C0047FCCF /* WKNewLocationNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A100F1B51D27C0047FCCF /* WKNewLocationNotificationController.swift */; };
+		4E8A10121B51D3080047FCCF /* WKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A10111B51D3080047FCCF /* WKViewController.swift */; };
+		4E8A10141B51D3C10047FCCF /* WKTriggerNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A10131B51D3C10047FCCF /* WKTriggerNotificationController.swift */; };
 		4EECB9DE1B50EB16004604F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECB9DD1B50EB16004604F0 /* AppDelegate.swift */; };
 		4EECB9E01B50EB16004604F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECB9DF1B50EB16004604F0 /* ViewController.swift */; };
 		4EECB9E31B50EB16004604F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EECB9E11B50EB16004604F0 /* Main.storyboard */; };
@@ -91,6 +94,9 @@
 		4E8A0FFD1B51CAC20047FCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E8A0FFF1B51CAC20047FCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		4E8A10011B51CAC20047FCCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E8A100F1B51D27C0047FCCF /* WKNewLocationNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNewLocationNotificationController.swift; sourceTree = "<group>"; };
+		4E8A10111B51D3080047FCCF /* WKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKViewController.swift; sourceTree = "<group>"; };
+		4E8A10131B51D3C10047FCCF /* WKTriggerNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKTriggerNotificationController.swift; sourceTree = "<group>"; };
 		4EECB9D81B50EB16004604F0 /* iosDevCampApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosDevCampApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EECB9DC1B50EB16004604F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EECB9DD1B50EB16004604F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +171,9 @@
 				4E8A0FFE1B51CAC20047FCCF /* Interface.storyboard */,
 				4E8A10011B51CAC20047FCCF /* Images.xcassets */,
 				4E8A0FFC1B51CAC20047FCCF /* Supporting Files */,
+				4E8A100F1B51D27C0047FCCF /* WKNewLocationNotificationController.swift */,
+				4E8A10111B51D3080047FCCF /* WKViewController.swift */,
+				4E8A10131B51D3C10047FCCF /* WKTriggerNotificationController.swift */,
 			);
 			path = "iosDevCampApp WatchKit App";
 			sourceTree = "<group>";
@@ -436,9 +445,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E8A10101B51D27C0047FCCF /* WKNewLocationNotificationController.swift in Sources */,
 				4E8A0FE51B50F11C0047FCCF /* EnteredRestaurantCallback.swift in Sources */,
 				4EECB9E01B50EB16004604F0 /* ViewController.swift in Sources */,
 				4EECB9DE1B50EB16004604F0 /* AppDelegate.swift in Sources */,
+				4E8A10121B51D3080047FCCF /* WKViewController.swift in Sources */,
+				4E8A10141B51D3C10047FCCF /* WKTriggerNotificationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

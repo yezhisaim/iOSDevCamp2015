@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="iosDevCampApp_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
@@ -28,10 +28,25 @@
             </objects>
             <point key="canvasLocation" x="220" y="643"/>
         </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="kfg-j5-vvt">
+            <objects>
+                <notificationController id="kIe-DD-98D">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="aff-Yc-6bC"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="pIK-He-F0j"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="aff-Yc-6bC" id="fCl-nF-QWf"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="471" y="401"/>
+        </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="iosDevCampApp_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
