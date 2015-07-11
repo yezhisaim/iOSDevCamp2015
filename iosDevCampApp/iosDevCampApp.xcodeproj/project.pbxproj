@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E8A0FE51B50F11C0047FCCF /* EnteredRestaurantCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A0FE41B50F11C0047FCCF /* EnteredRestaurantCallback.swift */; };
+		4E8A0FF01B51CAC20047FCCF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A0FEF1B51CAC20047FCCF /* InterfaceController.swift */; };
+		4E8A0FF21B51CAC20047FCCF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A0FF11B51CAC20047FCCF /* NotificationController.swift */; };
+		4E8A0FF41B51CAC20047FCCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8A0FF31B51CAC20047FCCF /* Images.xcassets */; };
+		4E8A0FF81B51CAC20047FCCF /* iosDevCampApp WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 4E8A0FF71B51CAC20047FCCF /* iosDevCampApp WatchKit App.app */; };
+		4E8A10001B51CAC20047FCCF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8A0FFE1B51CAC20047FCCF /* Interface.storyboard */; };
+		4E8A10021B51CAC20047FCCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8A10011B51CAC20047FCCF /* Images.xcassets */; };
+		4E8A10051B51CAC20047FCCF /* iosDevCampApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E8A0FEA1B51CAC20047FCCF /* iosDevCampApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4EECB9DE1B50EB16004604F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECB9DD1B50EB16004604F0 /* AppDelegate.swift */; };
+		4EECB9E01B50EB16004604F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECB9DF1B50EB16004604F0 /* ViewController.swift */; };
+		4EECB9E31B50EB16004604F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EECB9E11B50EB16004604F0 /* Main.storyboard */; };
+		4EECB9E51B50EB16004604F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EECB9E41B50EB16004604F0 /* Images.xcassets */; };
+		4EECB9E81B50EB16004604F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EECB9E61B50EB16004604F0 /* LaunchScreen.xib */; };
+		4EECB9F41B50EB16004604F0 /* iosDevCampAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECB9F31B50EB16004604F0 /* iosDevCampAppTests.swift */; };
+		4EECB9FE1B50EB98004604F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EECB9FD1B50EB98004604F0 /* CoreLocation.framework */; };
+		4EECBA001B50EBA2004604F0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EECB9FF1B50EBA2004604F0 /* CoreMotion.framework */; };
+		4EECBA021B50EBAF004604F0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EECBA011B50EBAF004604F0 /* SystemConfiguration.framework */; };
+		4EECBA041B50EBBB004604F0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EECBA031B50EBBB004604F0 /* libz.dylib */; };
+		4EECBA081B50EBF6004604F0 /* SenseSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EECBA071B50EBF6004604F0 /* SenseSdk.framework */; };
+		4EECBA091B50EC1B004604F0 /* SenseSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EECBA071B50EBF6004604F0 /* SenseSdk.framework */; };
+		4EECBA0A1B50EC1B004604F0 /* SenseSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EECBA071B50EBF6004604F0 /* SenseSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E8A0FF91B51CAC20047FCCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EECB9D01B50EB16004604F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8A0FF61B51CAC20047FCCF;
+			remoteInfo = "iosDevCampApp WatchKit App";
+		};
+		4E8A10031B51CAC20047FCCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EECB9D01B50EB16004604F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8A0FE91B51CAC20047FCCF;
+			remoteInfo = "iosDevCampApp WatchKit Extension";
+		};
+		4EECB9EE1B50EB16004604F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EECB9D01B50EB16004604F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EECB9D71B50EB16004604F0;
+			remoteInfo = iosDevCampApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E8A100C1B51CAC20047FCCF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4E8A10051B51CAC20047FCCF /* iosDevCampApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EECBA0B1B50EC1B004604F0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4EECBA0A1B50EC1B004604F0 /* SenseSdk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E8A0FE41B50F11C0047FCCF /* EnteredRestaurantCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnteredRestaurantCallback.swift; sourceTree = "<group>"; };
+		4E8A0FEA1B51CAC20047FCCF /* iosDevCampApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iosDevCampApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8A0FED1B51CAC20047FCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8A0FEE1B51CAC20047FCCF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4E8A0FEF1B51CAC20047FCCF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4E8A0FF11B51CAC20047FCCF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4E8A0FF31B51CAC20047FCCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E8A0FF71B51CAC20047FCCF /* iosDevCampApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosDevCampApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8A0FFD1B51CAC20047FCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8A0FFF1B51CAC20047FCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4E8A10011B51CAC20047FCCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EECB9D81B50EB16004604F0 /* iosDevCampApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosDevCampApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EECB9DC1B50EB16004604F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EECB9DD1B50EB16004604F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EECB9DF1B50EB16004604F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EECB9E21B50EB16004604F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EECB9E41B50EB16004604F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EECB9E71B50EB16004604F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4EECB9ED1B50EB16004604F0 /* iosDevCampAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosDevCampAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EECB9F21B50EB16004604F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EECB9F31B50EB16004604F0 /* iosDevCampAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosDevCampAppTests.swift; sourceTree = "<group>"; };
+		4EECB9FD1B50EB98004604F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4EECB9FF1B50EBA2004604F0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4EECBA011B50EBAF004604F0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4EECBA031B50EBBB004604F0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4EECBA071B50EBF6004604F0 /* SenseSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SenseSdk.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8A0FE71B51CAC20047FCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EECB9D51B50EB16004604F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EECBA041B50EBBB004604F0 /* libz.dylib in Frameworks */,
+				4EECBA021B50EBAF004604F0 /* SystemConfiguration.framework in Frameworks */,
+				4EECBA091B50EC1B004604F0 /* SenseSdk.framework in Frameworks */,
+				4EECBA081B50EBF6004604F0 /* SenseSdk.framework in Frameworks */,
+				4EECBA001B50EBA2004604F0 /* CoreMotion.framework in Frameworks */,
+				4EECB9FE1B50EB98004604F0 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EECB9EA1B50EB16004604F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8A0FEB1B51CAC20047FCCF /* iosDevCampApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4E8A0FEF1B51CAC20047FCCF /* InterfaceController.swift */,
+				4E8A0FF11B51CAC20047FCCF /* NotificationController.swift */,
+				4E8A0FF31B51CAC20047FCCF /* Images.xcassets */,
+				4E8A0FEC1B51CAC20047FCCF /* Supporting Files */,
+			);
+			path = "iosDevCampApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4E8A0FEC1B51CAC20047FCCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8A0FED1B51CAC20047FCCF /* Info.plist */,
+				4E8A0FEE1B51CAC20047FCCF /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E8A0FFB1B51CAC20047FCCF /* iosDevCampApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4E8A0FFE1B51CAC20047FCCF /* Interface.storyboard */,
+				4E8A10011B51CAC20047FCCF /* Images.xcassets */,
+				4E8A0FFC1B51CAC20047FCCF /* Supporting Files */,
+			);
+			path = "iosDevCampApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		4E8A0FFC1B51CAC20047FCCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8A0FFD1B51CAC20047FCCF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EECB9CF1B50EB16004604F0 = {
+			isa = PBXGroup;
+			children = (
+				4EECBA071B50EBF6004604F0 /* SenseSdk.framework */,
+				4EECBA031B50EBBB004604F0 /* libz.dylib */,
+				4EECBA011B50EBAF004604F0 /* SystemConfiguration.framework */,
+				4EECB9FF1B50EBA2004604F0 /* CoreMotion.framework */,
+				4EECB9FD1B50EB98004604F0 /* CoreLocation.framework */,
+				4EECB9DA1B50EB16004604F0 /* iosDevCampApp */,
+				4EECB9F01B50EB16004604F0 /* iosDevCampAppTests */,
+				4E8A0FEB1B51CAC20047FCCF /* iosDevCampApp WatchKit Extension */,
+				4E8A0FFB1B51CAC20047FCCF /* iosDevCampApp WatchKit App */,
+				4EECB9D91B50EB16004604F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EECB9D91B50EB16004604F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EECB9D81B50EB16004604F0 /* iosDevCampApp.app */,
+				4EECB9ED1B50EB16004604F0 /* iosDevCampAppTests.xctest */,
+				4E8A0FEA1B51CAC20047FCCF /* iosDevCampApp WatchKit Extension.appex */,
+				4E8A0FF71B51CAC20047FCCF /* iosDevCampApp WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EECB9DA1B50EB16004604F0 /* iosDevCampApp */ = {
+			isa = PBXGroup;
+			children = (
+				4EECB9DD1B50EB16004604F0 /* AppDelegate.swift */,
+				4EECB9DF1B50EB16004604F0 /* ViewController.swift */,
+				4EECB9E11B50EB16004604F0 /* Main.storyboard */,
+				4EECB9E41B50EB16004604F0 /* Images.xcassets */,
+				4EECB9E61B50EB16004604F0 /* LaunchScreen.xib */,
+				4EECB9DB1B50EB16004604F0 /* Supporting Files */,
+				4E8A0FE41B50F11C0047FCCF /* EnteredRestaurantCallback.swift */,
+			);
+			path = iosDevCampApp;
+			sourceTree = "<group>";
+		};
+		4EECB9DB1B50EB16004604F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EECB9DC1B50EB16004604F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EECB9F01B50EB16004604F0 /* iosDevCampAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EECB9F31B50EB16004604F0 /* iosDevCampAppTests.swift */,
+				4EECB9F11B50EB16004604F0 /* Supporting Files */,
+			);
+			path = iosDevCampAppTests;
+			sourceTree = "<group>";
+		};
+		4EECB9F11B50EB16004604F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EECB9F21B50EB16004604F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E8A0FE91B51CAC20047FCCF /* iosDevCampApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8A10091B51CAC20047FCCF /* Build configuration list for PBXNativeTarget "iosDevCampApp WatchKit Extension" */;
+			buildPhases = (
+				4E8A0FE61B51CAC20047FCCF /* Sources */,
+				4E8A0FE71B51CAC20047FCCF /* Frameworks */,
+				4E8A0FE81B51CAC20047FCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8A0FFA1B51CAC20047FCCF /* PBXTargetDependency */,
+			);
+			name = "iosDevCampApp WatchKit Extension";
+			productName = "iosDevCampApp WatchKit Extension";
+			productReference = 4E8A0FEA1B51CAC20047FCCF /* iosDevCampApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		4E8A0FF61B51CAC20047FCCF /* iosDevCampApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8A10061B51CAC20047FCCF /* Build configuration list for PBXNativeTarget "iosDevCampApp WatchKit App" */;
+			buildPhases = (
+				4E8A0FF51B51CAC20047FCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iosDevCampApp WatchKit App";
+			productName = "iosDevCampApp WatchKit App";
+			productReference = 4E8A0FF71B51CAC20047FCCF /* iosDevCampApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		4EECB9D71B50EB16004604F0 /* iosDevCampApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EECB9F71B50EB16004604F0 /* Build configuration list for PBXNativeTarget "iosDevCampApp" */;
+			buildPhases = (
+				4EECB9D41B50EB16004604F0 /* Sources */,
+				4EECB9D51B50EB16004604F0 /* Frameworks */,
+				4EECB9D61B50EB16004604F0 /* Resources */,
+				4EECBA0B1B50EC1B004604F0 /* Embed Frameworks */,
+				4E8A0FE31B50EC880047FCCF /* ShellScript */,
+				4E8A100C1B51CAC20047FCCF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8A10041B51CAC20047FCCF /* PBXTargetDependency */,
+			);
+			name = iosDevCampApp;
+			productName = iosDevCampApp;
+			productReference = 4EECB9D81B50EB16004604F0 /* iosDevCampApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EECB9EC1B50EB16004604F0 /* iosDevCampAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EECB9FA1B50EB16004604F0 /* Build configuration list for PBXNativeTarget "iosDevCampAppTests" */;
+			buildPhases = (
+				4EECB9E91B50EB16004604F0 /* Sources */,
+				4EECB9EA1B50EB16004604F0 /* Frameworks */,
+				4EECB9EB1B50EB16004604F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EECB9EF1B50EB16004604F0 /* PBXTargetDependency */,
+			);
+			name = iosDevCampAppTests;
+			productName = iosDevCampAppTests;
+			productReference = 4EECB9ED1B50EB16004604F0 /* iosDevCampAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EECB9D01B50EB16004604F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Isai;
+				TargetAttributes = {
+					4E8A0FE91B51CAC20047FCCF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					4E8A0FF61B51CAC20047FCCF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					4EECB9D71B50EB16004604F0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					4EECB9EC1B50EB16004604F0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 4EECB9D71B50EB16004604F0;
+					};
+				};
+			};
+			buildConfigurationList = 4EECB9D31B50EB16004604F0 /* Build configuration list for PBXProject "iosDevCampApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EECB9CF1B50EB16004604F0;
+			productRefGroup = 4EECB9D91B50EB16004604F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EECB9D71B50EB16004604F0 /* iosDevCampApp */,
+				4EECB9EC1B50EB16004604F0 /* iosDevCampAppTests */,
+				4E8A0FE91B51CAC20047FCCF /* iosDevCampApp WatchKit Extension */,
+				4E8A0FF61B51CAC20047FCCF /* iosDevCampApp WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8A0FE81B51CAC20047FCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A0FF41B51CAC20047FCCF /* Images.xcassets in Resources */,
+				4E8A0FF81B51CAC20047FCCF /* iosDevCampApp WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8A0FF51B51CAC20047FCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A10001B51CAC20047FCCF /* Interface.storyboard in Resources */,
+				4E8A10021B51CAC20047FCCF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EECB9D61B50EB16004604F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EECB9E31B50EB16004604F0 /* Main.storyboard in Resources */,
+				4EECB9E81B50EB16004604F0 /* LaunchScreen.xib in Resources */,
+				4EECB9E51B50EB16004604F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EECB9EB1B50EB16004604F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E8A0FE31B50EC880047FCCF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# http://ikennd.ac/blog/2015/02/stripping-unwanted-architectures-from-dynamic-libraries-in-xcode/\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n# This script strips unused architectures\nfind \"$APP_PATH\" -name 'SenseSdk.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\nEXTRACTED_ARCHS=()\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\ndone";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8A0FE61B51CAC20047FCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A0FF21B51CAC20047FCCF /* NotificationController.swift in Sources */,
+				4E8A0FF01B51CAC20047FCCF /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EECB9D41B50EB16004604F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A0FE51B50F11C0047FCCF /* EnteredRestaurantCallback.swift in Sources */,
+				4EECB9E01B50EB16004604F0 /* ViewController.swift in Sources */,
+				4EECB9DE1B50EB16004604F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EECB9E91B50EB16004604F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EECB9F41B50EB16004604F0 /* iosDevCampAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E8A0FFA1B51CAC20047FCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8A0FF61B51CAC20047FCCF /* iosDevCampApp WatchKit App */;
+			targetProxy = 4E8A0FF91B51CAC20047FCCF /* PBXContainerItemProxy */;
+		};
+		4E8A10041B51CAC20047FCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8A0FE91B51CAC20047FCCF /* iosDevCampApp WatchKit Extension */;
+			targetProxy = 4E8A10031B51CAC20047FCCF /* PBXContainerItemProxy */;
+		};
+		4EECB9EF1B50EB16004604F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EECB9D71B50EB16004604F0 /* iosDevCampApp */;
+			targetProxy = 4EECB9EE1B50EB16004604F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E8A0FFE1B51CAC20047FCCF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8A0FFF1B51CAC20047FCCF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		4EECB9E11B50EB16004604F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EECB9E21B50EB16004604F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EECB9E61B50EB16004604F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EECB9E71B50EB16004604F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E8A10071B51CAC20047FCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = iosDevCampApp_WatchKit_Extension;
+				INFOPLIST_FILE = "iosDevCampApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		4E8A10081B51CAC20047FCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = iosDevCampApp_WatchKit_Extension;
+				INFOPLIST_FILE = "iosDevCampApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		4E8A100A1B51CAC20047FCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iosDevCampApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4E8A100B1B51CAC20047FCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iosDevCampApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4EECB9F51B50EB16004604F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EECB9F61B50EB16004604F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EECB9F81B50EB16004604F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iosDevCampApp.xcodeproj",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = iosDevCampApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EECB9F91B50EB16004604F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iosDevCampApp.xcodeproj",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = iosDevCampApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EECB9FB1B50EB16004604F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iosDevCampAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosDevCampApp.app/iosDevCampApp";
+			};
+			name = Debug;
+		};
+		4EECB9FC1B50EB16004604F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iosDevCampAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosDevCampApp.app/iosDevCampApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E8A10061B51CAC20047FCCF /* Build configuration list for PBXNativeTarget "iosDevCampApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8A10071B51CAC20047FCCF /* Debug */,
+				4E8A10081B51CAC20047FCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E8A10091B51CAC20047FCCF /* Build configuration list for PBXNativeTarget "iosDevCampApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8A100A1B51CAC20047FCCF /* Debug */,
+				4E8A100B1B51CAC20047FCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EECB9D31B50EB16004604F0 /* Build configuration list for PBXProject "iosDevCampApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EECB9F51B50EB16004604F0 /* Debug */,
+				4EECB9F61B50EB16004604F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EECB9F71B50EB16004604F0 /* Build configuration list for PBXNativeTarget "iosDevCampApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EECB9F81B50EB16004604F0 /* Debug */,
+				4EECB9F91B50EB16004604F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EECB9FA1B50EB16004604F0 /* Build configuration list for PBXNativeTarget "iosDevCampAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EECB9FB1B50EB16004604F0 /* Debug */,
+				4EECB9FC1B50EB16004604F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EECB9D01B50EB16004604F0 /* Project object */;
+}
