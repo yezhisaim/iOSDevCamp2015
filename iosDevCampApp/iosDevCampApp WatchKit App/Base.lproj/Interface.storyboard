@@ -50,5 +50,330 @@
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
+        <!--Price-->
+        <scene sceneID="RLD-wS-qIY">
+            <objects>
+                <controller identifier="Price" id="SjX-s6-DXX">
+                    <items>
+                        <imageView width="136" height="91" alignment="left" id="L0Z-Zz-09I">
+                            <variation key="device=watch42mm" width="156"/>
+                        </imageView>
+                        <separator alignment="left" id="eOO-yU-lGF"/>
+                        <group width="1" alignment="left" id="dHU-DN-7ed">
+                            <items>
+                                <label width="86" height="22" alignment="left" text="Business name" id="e41-mw-fZ0"/>
+                                <label width="100" height="100" alignment="left" text="Label" id="Z3d-xg-Z1L">
+                                    <variation key="device=watch42mm" height="24" text="Rating" width="62"/>
+                                </label>
+                            </items>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="Z3d-xg-Z1L"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="Z3d-xg-Z1L"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <label width="75" height="13" alignment="left" text="Address" id="QVl-rX-1Kh"/>
+                        <label alignment="left" text="Label" id="ncJ-2P-LZj">
+                            <variation key="device=watch42mm" text="Price"/>
+                        </label>
+                    </items>
+                    <variation key="default">
+                        <mask key="items">
+                            <exclude reference="ncJ-2P-LZj"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch42mm">
+                        <mask key="items">
+                            <include reference="ncJ-2P-LZj"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <segue destination="q5n-tW-jet" kind="relationship" relationship="nextPage" id="iV5-m4-jHr"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="681.74358974358984" y="530.48717948717956"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="mJ7-mi-Eyn">
+            <objects>
+                <controller id="q5n-tW-jet">
+                    <items>
+                        <imageView width="136" height="91" alignment="left" id="ezr-Pl-v47">
+                            <variation key="device=watch42mm" width="156"/>
+                        </imageView>
+                        <separator alignment="left" id="oF5-k1-wuj"/>
+                        <group width="1" alignment="left" id="7cA-XV-ow7">
+                            <items>
+                                <label width="86" height="22" alignment="left" text="Business name" id="XZk-xd-yeX"/>
+                                <label width="100" height="100" alignment="left" text="Label" id="NUa-V6-JEE">
+                                    <variation key="device=watch42mm" height="24" text="Rating" width="62"/>
+                                </label>
+                            </items>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="NUa-V6-JEE"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="NUa-V6-JEE"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <label width="75" height="13" alignment="left" text="Address" id="Jbv-W8-SfW"/>
+                        <label alignment="left" text="Label" id="1cc-wX-ZJO">
+                            <variation key="device=watch42mm" text="Price"/>
+                        </label>
+                    </items>
+                    <variation key="default">
+                        <mask key="items">
+                            <exclude reference="ezr-Pl-v47"/>
+                            <exclude reference="oF5-k1-wuj"/>
+                            <exclude reference="7cA-XV-ow7"/>
+                            <exclude reference="Jbv-W8-SfW"/>
+                            <exclude reference="1cc-wX-ZJO"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch42mm">
+                        <mask key="items">
+                            <include reference="ezr-Pl-v47"/>
+                            <include reference="oF5-k1-wuj"/>
+                            <include reference="7cA-XV-ow7"/>
+                            <include reference="Jbv-W8-SfW"/>
+                            <include reference="1cc-wX-ZJO"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <segue destination="Eg5-rd-72e" kind="relationship" relationship="nextPage" id="Lts-UK-EZQ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="875" y="531"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="lBd-5S-k8E">
+            <objects>
+                <controller id="Eg5-rd-72e">
+                    <items>
+                        <imageView width="136" height="91" alignment="left" id="Zmh-44-zhQ">
+                            <variation key="device=watch42mm" width="156"/>
+                        </imageView>
+                        <separator alignment="left" id="AbZ-Ns-y7r"/>
+                        <group width="1" alignment="left" id="laq-GS-Jvj">
+                            <items>
+                                <label width="86" height="22" alignment="left" text="Business name" id="Th4-21-2Ci"/>
+                                <label width="100" height="100" alignment="left" text="Label" id="mK5-sZ-hcQ">
+                                    <variation key="device=watch42mm" height="24" text="Rating" width="62"/>
+                                </label>
+                            </items>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="mK5-sZ-hcQ"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="mK5-sZ-hcQ"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <label width="75" height="13" alignment="left" text="Address" id="DfR-en-nso"/>
+                        <label alignment="left" text="Label" id="e8M-rq-U23">
+                            <variation key="device=watch42mm" text="Price"/>
+                        </label>
+                    </items>
+                    <variation key="default">
+                        <mask key="items">
+                            <exclude reference="Zmh-44-zhQ"/>
+                            <exclude reference="AbZ-Ns-y7r"/>
+                            <exclude reference="laq-GS-Jvj"/>
+                            <exclude reference="DfR-en-nso"/>
+                            <exclude reference="e8M-rq-U23"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch42mm">
+                        <mask key="items">
+                            <include reference="Zmh-44-zhQ"/>
+                            <include reference="AbZ-Ns-y7r"/>
+                            <include reference="laq-GS-Jvj"/>
+                            <include reference="DfR-en-nso"/>
+                            <include reference="e8M-rq-U23"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <segue destination="i66-rG-kTm" kind="relationship" relationship="nextPage" id="G3w-np-xN0"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1058" y="536"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="LVd-fH-axL">
+            <objects>
+                <controller id="i66-rG-kTm">
+                    <items>
+                        <imageView width="136" height="91" alignment="left" id="vAs-zt-Pwg">
+                            <variation key="device=watch42mm" width="156"/>
+                        </imageView>
+                        <separator alignment="left" id="dON-Nc-4Q8"/>
+                        <group width="1" alignment="left" id="RFe-SK-EBj">
+                            <items>
+                                <label width="86" height="22" alignment="left" text="Business name" id="VhM-Ld-2zf"/>
+                                <label width="100" height="100" alignment="left" text="Label" id="V4L-LI-BHR">
+                                    <variation key="device=watch42mm" height="24" text="Rating" width="62"/>
+                                </label>
+                            </items>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="V4L-LI-BHR"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="V4L-LI-BHR"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <label width="75" height="13" alignment="left" text="Address" id="Dje-eA-wJw"/>
+                        <label alignment="left" text="Label" id="crP-2F-dJy">
+                            <variation key="device=watch42mm" text="Price"/>
+                        </label>
+                    </items>
+                    <variation key="default">
+                        <mask key="items">
+                            <exclude reference="vAs-zt-Pwg"/>
+                            <exclude reference="dON-Nc-4Q8"/>
+                            <exclude reference="RFe-SK-EBj"/>
+                            <exclude reference="Dje-eA-wJw"/>
+                            <exclude reference="crP-2F-dJy"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch42mm">
+                        <mask key="items">
+                            <include reference="vAs-zt-Pwg"/>
+                            <include reference="dON-Nc-4Q8"/>
+                            <include reference="RFe-SK-EBj"/>
+                            <include reference="Dje-eA-wJw"/>
+                            <include reference="crP-2F-dJy"/>
+                        </mask>
+                    </variation>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1218.7692307692309" y="535.71794871794873"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="luH-xv-tB1">
+            <objects>
+                <controller id="4KU-db-c5z">
+                    <items>
+                        <imageView width="136" height="91" alignment="left" id="KJB-b0-LRi">
+                            <variation key="device=watch42mm" width="156"/>
+                        </imageView>
+                        <separator alignment="left" id="7YH-23-uNy"/>
+                        <group width="1" alignment="left" id="crc-7t-cgD">
+                            <items>
+                                <label width="86" height="22" alignment="left" text="Business name" id="ujX-mm-vxL"/>
+                                <label width="100" height="100" alignment="left" text="Label" id="pvq-sF-aeD">
+                                    <variation key="device=watch42mm" height="24" text="Rating" width="62"/>
+                                </label>
+                            </items>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="pvq-sF-aeD"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="pvq-sF-aeD"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <label width="75" height="13" alignment="left" text="Address" id="O0u-jV-ZvU"/>
+                        <label alignment="left" text="Label" id="lh3-HD-6nl">
+                            <variation key="device=watch42mm" text="Price"/>
+                        </label>
+                    </items>
+                    <variation key="default">
+                        <mask key="items">
+                            <exclude reference="KJB-b0-LRi"/>
+                            <exclude reference="7YH-23-uNy"/>
+                            <exclude reference="crc-7t-cgD"/>
+                            <exclude reference="O0u-jV-ZvU"/>
+                            <exclude reference="lh3-HD-6nl"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch42mm">
+                        <mask key="items">
+                            <include reference="KJB-b0-LRi"/>
+                            <include reference="7YH-23-uNy"/>
+                            <include reference="crc-7t-cgD"/>
+                            <include reference="O0u-jV-ZvU"/>
+                            <include reference="lh3-HD-6nl"/>
+                        </mask>
+                    </variation>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1036" y="796"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="gE8-fo-ZY4">
+            <objects>
+                <controller id="jbb-6K-acj">
+                    <items>
+                        <imageView width="136" height="91" alignment="left" id="xt5-vl-ryd">
+                            <variation key="device=watch42mm" width="156"/>
+                        </imageView>
+                        <separator alignment="left" id="3uL-ey-BAV"/>
+                        <group width="1" alignment="left" id="jbk-zp-ykv">
+                            <items>
+                                <label width="86" height="22" alignment="left" text="Business name" id="iPV-5N-NPO"/>
+                                <label width="100" height="100" alignment="left" text="Label" id="oz1-I5-cfY">
+                                    <variation key="device=watch42mm" height="24" text="Rating" width="62"/>
+                                </label>
+                            </items>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="oz1-I5-cfY"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="oz1-I5-cfY"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <label width="75" height="13" alignment="left" text="Address" id="bV0-Ls-bKD"/>
+                        <label alignment="left" text="Label" id="qRP-6K-exT">
+                            <variation key="device=watch42mm" text="Price"/>
+                        </label>
+                    </items>
+                    <variation key="default">
+                        <mask key="items">
+                            <exclude reference="xt5-vl-ryd"/>
+                            <exclude reference="3uL-ey-BAV"/>
+                            <exclude reference="jbk-zp-ykv"/>
+                            <exclude reference="bV0-Ls-bKD"/>
+                            <exclude reference="qRP-6K-exT"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch42mm">
+                        <mask key="items">
+                            <include reference="xt5-vl-ryd"/>
+                            <include reference="3uL-ey-BAV"/>
+                            <include reference="jbk-zp-ykv"/>
+                            <include reference="bV0-Ls-bKD"/>
+                            <include reference="qRP-6K-exT"/>
+                        </mask>
+                    </variation>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1186" y="797"/>
+        </scene>
     </scenes>
 </document>
